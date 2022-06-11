@@ -1,10 +1,11 @@
 # 第6回講座課題
-***
-## 概要
- SpringBootでHello World及びその他を表示。<br>
- Localhostのルートにアクセスをすると、index.htmlが表示される。<br> 
+---
+## 概要<br>
+
+SpringBootでHello World及びその他を表示。<br>
+Localhostのルートにアクセスをすると、index.htmlが表示される。<br>
 そのhtmlにはaタグで３つのリンクが貼ってあり、リンク先のURLによりRestControllerが<br>
- "HelloWorld"、"HelloJava"、"HelloMySQL"の文字列を返し画面に表示する。
+"HelloWorld"、"HelloJava"、"HelloMySQL"の文字列を返し画面に表示する。
 ---
 | 表示文字列       | URL               |
 -------------|-------------------
