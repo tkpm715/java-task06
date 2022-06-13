@@ -8,17 +8,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class DisplayController {
 
   @GetMapping("/00")
-  public String a() {
+  public String helloWorld() {
     return "Hello World";
   }
 
   @GetMapping("/01")
-  public String b() {
+  public String helloJava() {
     return "Hello Java";
   }
 
   @GetMapping("/02")
-  public String c() {
+  public String helloMysql() {
     return "Hello MySQL";
   }
 }
