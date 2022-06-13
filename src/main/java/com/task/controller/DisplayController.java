@@ -1,4 +1,4 @@
-package com.task.Controller;
+package com.task.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,8 +8,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class DisplayController {
 
   @GetMapping("/00")
-  public String a(){
+  public String helloWorld() {
     return "Hello World";
   }
 
+  @GetMapping("/01")
+  public String helloJava() {
+    return "Hello Java";
+  }
+
+  @GetMapping("/02")
+  public String helloMysql() {
+    return "Hello MySQL";
+  }
 }
